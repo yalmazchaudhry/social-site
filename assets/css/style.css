@@ -1,0 +1,33 @@
+input:focus{
+  outline: 0px !important;
+  border: none;
+  box-shadow: none;
+}
+*{
+  box-sizing: border-box;
+}
+.main{
+  overflow-y: scroll;
+  height: 100vh;
+}
+/* .container-fluid{
+  background-color: #F9F1F0;
+}
+.left{
+  background-color: white;
+} */
+#tags :hover{
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+  
+}
+.menu-icon:hover  , .icons:hover {
+  cursor: pointer;
+  font-weight: bolder;
+  color: rgb(216, 27, 27);
+ transform: scale(1.5);
+}
+.Sign-up{
+  height: auto;
+}
